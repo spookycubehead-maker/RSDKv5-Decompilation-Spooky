@@ -1,3 +1,9 @@
+This is a modified version of RSDKv5(U) mainly for experimental purposes. I would highly recommend using the original decomp instead of this one, unless of course you love breaking things. :)
+
+I also updated the instuctions for building this fork of the decomp instead of the instructions for the original, for convience sakes.
+
+#
+
 ![header](header.png?raw=true)
 
 A complete decompilation of Retro Engine v5 and v5Ultimate.
@@ -27,7 +33,7 @@ This project uses [CMake](https://cmake.org/), a versatile building system that 
 Instead, you will need to clone the repository using Git, which you can get [here](https://git-scm.com/downloads).
 
 Clone the repo **recursively**, using:
-`git clone --recursive https://github.com/RSDKModding/RSDKv5-Decompilation`
+`git clone --recursive https://github.com/spookycubehead-maker/RSDKv5-Decompilation-Spooky`
 
 If you've already cloned the repo, run this command inside of the repository:
 ```git submodule update --init```
@@ -50,7 +56,7 @@ Install the following dependencies: then follow the [compilation steps below](#c
 - **apt (Debian/Ubuntu):** `sudo apt install build-essential cmake libglew-dev libglfw3-dev libtheora-dev`
 - **rpm (Fedora):** `sudo dnf install make cmake gcc glew-devel glfw-devel libtheora-devel zlib-devel`
 - **xbps (Void):** `sudo xbps-install make cmake gcc pkg-config glew-devel glfw-devel libtheora-devel zlib-devel`
-- Your favorite package manager here, [make a pull request](https://github.com/RSDKModding/RSDKv5-Decompilation/fork) (also update [Mania](https://github.com/RSDKModding/Sonic-Mania-Decompilation)!)
+- Your favorite package manager here, [make a pull request](https://github.com/spookycubehead-maker/RSDKv5-Decompilation-Spooky/fork) (also update [Mania](https://github.com/RSDKModding/Sonic-Mania-Decompilation)!)
 
 #### (make sure to [install GL shaders!](FAQ.md#q-why-arent-videosfilters-working-while-using-gl))
 
