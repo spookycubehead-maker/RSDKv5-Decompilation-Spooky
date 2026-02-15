@@ -4,7 +4,7 @@
 // These being different sizes will surely cause issues if more then VIEWVAR_LIST_COUNT values are set
 // But that's how the code is in the original so what can ya do
 #define VIEWVAR_COUNT      (0x900)
-#define VIEWVAR_LIST_COUNT (0x40)
+#define VIEWVAR_LIST_COUNT (0x900)
 
 #include <stdarg.h>
 
