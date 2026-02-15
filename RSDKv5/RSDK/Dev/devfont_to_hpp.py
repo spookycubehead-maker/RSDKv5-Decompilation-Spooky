@@ -3,8 +3,8 @@ import sys, math, itertools
 from PIL import Image
 from pathlib import Path
 
-WIDTH = 8
-HEIGHT = 8
+WIDTH = 9
+HEIGHT = 9
 CHARCOUNT = 128
 COLCOUNT = 16
 
